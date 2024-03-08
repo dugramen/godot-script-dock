@@ -18,6 +18,10 @@ config/icon="res://icon.svg"
 
 project/assembly_name="script-dock"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/script-dock/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
